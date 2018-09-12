@@ -1,0 +1,7 @@
+{
+    "dependencies": [
+      {"path":"https://fonts.googleapis.com/css?family=Hind|Roboto","type":"css"},
+      {"path":"https://fonts.googleapis.com/icon?family=Material+Icons","type":"css"},  
+      "./style.scss"
+    ]
+  }

@@ -8,12 +8,21 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^10.9.4",
     "eslint": "^4.2.0",
     "eslint-config-prettier": "^2.3.0",
     "eslint-plugin-prettier": "^2.1.2",
-    "prettier": "^1.5.2"
+    "lasso-sass": "^3.0.0",
+    "prettier": "^1.5.2",
+    "typescript": "^3.0.3"
   },
   "dependencies": {
+    "@material/drawer": "^0.39.1",
+    "@material/layout-grid": "^0.39.0",
+    "@material/textfield": "^0.39.1",
+    "@material/theme": "^0.39.1",
+    "@material/top-app-bar": "^0.39.3",
+    "@material/typography": "^0.39.0",
     "marko": "^4.2.4",
     "marko-starter": "^1.0.0"
   },

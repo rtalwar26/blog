@@ -6,16 +6,20 @@
   <title><include(input.title)/></title>
 </head>
 <body>
-  <header>
-    <img.logo src="./logo.png" alt="marko logo"/>
-    <h1><include(input.title)/></h1>
-    <nav.menu>
-      <a href="/">home</a>
-      <a href="/hello/routing">routes</a>
-      <a href="/layouts">layouts</a>
-    </nav>
+  <header class="mdc-top-app-bar mdc-top-app-bar--fixed">
+    <div class="mdc-top-app-bar__row" style="padding: 0 10rem">
+      <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end">
+        <!-- <a href="#" class="material-icons mdc-top-app-bar__navigation-icon">menu</a> -->
+        <span class="mdc-top-app-bar__title">Rajat Talwar <include(input.title)/></span>
+      </section>
+      <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
+        <a href="#" class="material-icons mdc-top-app-bar__action-item" aria-label="Download" alt="Download">file_download</a>
+        <a href="#" class="material-icons mdc-top-app-bar__action-item" aria-label="Print this page" alt="Print this page">print</a>
+        <a href="#" class="material-icons mdc-top-app-bar__action-item" aria-label="Bookmark this page" alt="Bookmark this page">bookmark</a>
+      </section>
+    </div>
   </header>
-  <div.content>
+  <div.content.mdc-top-app-bar--fixed-adjust>
     <include(input.content)/>
   </div>
   </body>
