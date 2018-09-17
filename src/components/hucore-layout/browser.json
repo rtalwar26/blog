@@ -1,0 +1,6 @@
+{
+    "dependencies": [
+      {"path":"//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/languages/javascript.min.js","type":"js"},      
+      "./style.scss"
+    ]
+  }

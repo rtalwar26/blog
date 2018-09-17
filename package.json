@@ -23,8 +23,10 @@
     "@material/theme": "^0.39.1",
     "@material/top-app-bar": "^0.39.3",
     "@material/typography": "^0.39.0",
+    "bulma": "^0.7.1",
     "marko": "^4.2.4",
-    "marko-starter": "^1.0.0"
+    "marko-starter": "^1.0.0",
+    "showdown": "^1.8.6"
   },
   "scripts": {
     "start": "marko-starter server",

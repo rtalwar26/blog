@@ -1,0 +1,12 @@
+$ var showdown  = require('showdown');
+$ var converter = new showdown.Converter();
+$ var text      = require('fs').readFileSync(require.resolve(`./${input.params.day}.md`),'utf8')
+$ var html      = converter.makeHtml(text);
+
+<hucore-layout>
+    <@title>- Blog</@title>
+    <@content>
+    $!{html}
+    </@content>
+  </hucore-layout>
+  

@@ -11,7 +11,8 @@ module.exports = require("marko-starter").projectConfig({
             {
                 "plugin": "lasso-sass",
                 "config": {
-                    "includePaths": ["./node_modules", "./src/styles"]
+                    "includePaths": ["./node_modules", "./src/styles"],
+                    "indentedSyntax": true
                 }
             }
         ]
