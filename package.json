@@ -52,5 +52,6 @@
   "eslintIgnore": [
     "*.marko.js"
   ],
-  "private": true
+  "private": true,
+  "static-repo": "git@github.com:https://github.com/rtalwar26/rtalwar26.github.io"
 }
