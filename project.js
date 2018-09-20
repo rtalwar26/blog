@@ -6,6 +6,7 @@ module.exports = require("marko-starter").projectConfig({
         fingerprintsEnabled: isProduction,
         require: {},
         minifyJS: isProduction,
+        urlPrefix: "/blog",
         plugins: [
             'lasso-marko',
             {
