@@ -8,7 +8,7 @@ module.exports = require("marko-starter").projectConfig({
       
     },
     minifyJS: isProduction,
-    urlPrefix: "/blog",
+    urlPrefix: isProduction ? "/blog" : "/static",
     plugins: [
       'lasso-marko',
       {
